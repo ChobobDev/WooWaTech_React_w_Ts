@@ -40,3 +40,30 @@ let weight: number = 57;
 위와 같이 `Type Alias`를 이용한다면 `number`라는 `Type`의 별칭을 정해줄 수 있다.  
 `age`라는 변수의 `Type`을 `Age`로 지정하여 가독성을 향상시킬 수 있다.  
  * * *
+ ### 4. Object의 `Type`지정
+ `type`라는 키워드를 이용하여 `Object`의 `Type`를 지정할 수 있다.
+ ```TS
+ type Bernie = {
+    age: number;
+    name: string;
+}
+
+const bernie: Bernie ={
+    age: 20,
+    name: "Cho"
+}
+ ```
+ * * *
+ ### 5. Interface의 `Type`지정 (Object의 다른 방법)
+```TS
+interface Bar{
+    age: Age;
+    name: String;
+}
+
+const bar: Bar ={
+    age: 20,
+    name: "Cho"
+}
+``` 
+위 코드와 같이 `interface`라는 키워드를 이용하여 `Type`을 지정해 줄 수 있다.  
