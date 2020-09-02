@@ -20,5 +20,23 @@ foo = false;
 let foo : number = 10;
 ```
 위 코드는 명시적으로 `Type`을 지정하는 코드의 예제이다.  
-`Typsescript`에서는 이와 같이 `let 변수명: type; ` 로 지정해 줄 수 있다.
+`Typsescript`에서는 이와 같이 `let 변수명: type; ` 로 지정해 줄 수 있다.  
+위와 같이 `Type`을 지정해주면 **가독성**`Readability`를 향상시킨다.  
+https://www.typescriptlang.org/docs/handbook/basic-types.html 에서 `Typescript`의 `Type`들을 확인 할 수 있다
 
+* * *
+### 3. `Type Alias`를 이용하여 `Type`지정
+```TS
+let age: number = 10;
+let weight: number = 57;
+```
+위와 같이 두 변수의 `Type`을 `number`로 지정해 줄 수 있다.  
+위 코드의 가독성은 `Type Alias`를 통하여 향상 시킬 수 있다.  
+```TS
+type Age = number;
+let age: Age = 10;
+let weight: number = 57;
+```
+위와 같이 `Type Alias`를 이용한다면 `number`라는 `Type`의 별칭을 정해줄 수 있다.  
+`age`라는 변수의 `Type`을 `Age`로 지정하여 가독성을 향상시킬 수 있다.  
+ * * *
