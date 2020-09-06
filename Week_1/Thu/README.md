@@ -9,13 +9,14 @@ Javasript코드는 `식`과 `문`으로 나눌 수 있다.
 
 ### Javascript 에서의 함수의 선언
 
-Javascript에 함수를 선언하는 방법에는 `함수 정의문`과 `함수 선언문`이 있다.
+Javascript에 함수를 선언하는 방법에는 `함수 정의문`과 `함수 선언문`이 있다.  
 `함수 정의문`의 예시 code
 ```TS
 function 함수이름(x){
     return y;
 }
 ```
+`함수 선언문` 의 예시 code
 ```TS
 const 변수이름 = function 함수이름(x){
     return y;
