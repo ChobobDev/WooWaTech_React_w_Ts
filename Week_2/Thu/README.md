@@ -143,3 +143,28 @@ const App = (props) => {
 export default App;
 ```
 위와 같이 class function으로 따로 정의를 해주어 상태변화가 있을시 상태가 랜더링 되도록 하였다.
+
+함수형 이 상태를 가질 수 없다를 훅을 이용하여 상채를 가질 수 있도록 해주었다.
+
+GC / Garbage Collector (알아보기)
+Mark and Sweep algorithm 
+
+비동기와 제너레이터
+
+```JS
+class function* foo(){
+    ...
+}
+```
+제너레이터 펑션
+
+```JS
+async function bar() {
+
+}
+```
+비동기 펑션
+
+lazy function에 대하여 알아보기.
+
+호이스팅(?) 찾아보기
